@@ -27,3 +27,7 @@ pub fn pop(s: Stack(member)) -> Result(#(Stack(member), member), Nil) {
     [a, ..rest] -> Ok(#(Stack(rest), a))
   }
 }
+
+pub fn size(s: Stack(member)) -> Int {
+  list.length(s.content)
+}

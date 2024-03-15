@@ -73,3 +73,19 @@ pub fn should_pop_element_test() {
   elem
   |> should.equal(10)
 }
+
+pub fn shoudl_return_size_test() {
+  // given
+  let s =
+    stack.new()
+    |> stack.push(2)
+    |> stack.push(1)
+
+  // when 
+  let size =
+    s
+    |> stack.size()
+  // then 
+  size
+  |> should.equal(2)
+}
