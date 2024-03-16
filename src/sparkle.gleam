@@ -1,5 +1,7 @@
 import gleam/io
+import stack
 
 pub fn main() {
-  io.println("Hello from sparkle!")
+  let s = stack.new()
+  io.debug(s)
 }
