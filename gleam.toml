@@ -6,7 +6,7 @@ version = "0.0.2"
 #
 description = "lib"
 licences = ["Apache-2.0"]
-repository = { type = "github", user = "tomaszbawor", repo = "https://github.com/tomaszbawor/sparkle" }
+repository = { type = "github", user = "tomaszbawor", repo = "sparkle" }
 # links = [{ title = "Website", href = "https://gleam.run" }]
 #
 # For a full reference of all the available options, you can have a look at
